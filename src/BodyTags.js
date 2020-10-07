@@ -15,8 +15,35 @@ const BodyTags = () => {
                     <h4>Позитив</h4>
                 </div>
                 <div align="justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id nibh ex. Integer eget purus nisi. Pellentesque pellentesque accumsan dui, sed lobortis nisi mattis ac. Nulla lacus libero, laoreet vel convallis et, condimentum sit amet magna. Duis interdum enim at dolor rhoncus, quis aliquet nisl sollicitudin. Proin efficitur sit amet elit a vehicula. Suspendisse vitae eros id libero lacinia lacinia 
-                </div>
+                пользоваться
+отлично
+удобно
+надежно
+быстро
+молодец
+нравиться
+порекомендовать
+ати
+знакомый
+площадка
+сайт
+отличный
+находить
+перевозчик
+приемлемый
+ставка
+проверять
+ресурс
+альтернатива
+рулить
+сервис
+помощь
+грузоперевозчик
+грузоперевозка
+удобный
+рекомендовать
+поиск
+груз                </div>
             </div>
             <div className="each-column">
                 <div className="head-block">
@@ -24,8 +51,36 @@ const BodyTags = () => {
                     <h4>Негатив</h4>
                 </div>
                 <div align="justify">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id nibh ex. Integer eget purus nisi. Pellentesque pellentesque accumsan dui, sed lobortis nisi mattis ac. Nulla lacus libero, laoreet vel convallis et, condimentum sit amet magna. Duis interdum enim at dolor rhoncus, quis aliquet nisl sollicitudin. Proin efficitur sit amet elit a vehicula. Suspendisse vitae eros id libero lacinia lacinia
-                </div>
+                правило
+ати
+юрист
+дорого
+зависать
+становиться
+мошенник
+руководство
+портал
+никак
+бороться
+система
+балл
+дорабатывать
+потерять
+привлекательность
+предложение
+ставка
+сайт
+вывод
+низкий
+гарантия
+защита
+право
+логист
+снижать
+посреднический
+фирма
+сбивать
+перевозчик                </div>
             </div>
             <div className="each-column">
                 <div className="head-block">
@@ -33,8 +88,36 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id nibh ex. Intege
                     <h4>Предложения</h4>
                 </div>
                 <div align="justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id nibh ex. Integer eget purus nisi. Pellentesque pellentesque accumsan dui, sed lobortis nisi mattis ac. Nulla lacus libero, laoreet vel convallis et, condimentum sit amet magna. Duis interdum enim at dolor rhoncus, quis aliquet nisl sollicitudin. Proin efficitur sit amet elit a vehicula. Suspendisse vitae eros id libero lacinia lacinia
-                </div>
+                приложение
+возможность
+поиск
+груз
+становиться
+платный
+дорогой
+стремиться
+выбор
+загрузка
+фирма
+обманывать
+ати
+находить
+цена
+услуга
+платить
+видный
+тариф
+дока
+недостаток
+простой
+тяжело
+разбираться
+регистрироваться
+программа
+заявка
+хватать
+супер
+больший                </div>
             </div>
             <div className="each-column">
                 <div className="head-block">
@@ -42,7 +125,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id nibh ex. Intege
                     <h4>Вопросы</h4>
                 </div>
                 <div align="justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id nibh ex. Integer eget purus nisi. Pellentesque pellentesque accumsan dui, sed lobortis nisi mattis ac. Nulla lacus libero, laoreet vel convallis et, condimentum sit amet magna. Duis interdum enim at dolor rhoncus, quis aliquet nisl sollicitudin. Proin efficitur sit amet elit a vehicula. Suspendisse vitae eros id libero lacinia lacinia 
+                удобно рекомендовать отлично сервис быстро программа партнер данный вариант заявка понятный система поиск супер перевозчик нравится грузоперевозка сайт площадка аналог груз найти груз пользоваться рекомендовать приложение просотй ати сегодняшний довольный искать 
                 </div>
             </div>
             <div className="each-column"></div>

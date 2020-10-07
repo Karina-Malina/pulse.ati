@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import plus from './Image/Plus.svg';
+import vot from './Image/vot.png';
 import BodyTags from './BodyTags';
 import BodyFirm from './BodyFirm';
 import './App.css';
@@ -9,22 +10,22 @@ const Filter = () => {
     const [tag, setTag] = useState(false);
     const [otzyv, setOtzyv] = useState(false);
     const [status, setStatus] = useState(false);
-    const [firm, setFirm] = useState(false);
-
+    const [firm, setFirm] = useState(0);
 
     const projectClassName = project ? "dropdown-content-visible" : "dropdown-content";
     const tagClassName = tag ? "dropdown-content-visible" : "dropdown-content";
     const otzyvClassName = otzyv ? "dropdown-content-visible" : "dropdown-content";
     const statusClassName = status ? "dropdown-content-visible" : "dropdown-content";
 
+    console.log("ghvgvg", firm);
     return (
         <div>
             <div className="Filter">
                 <p>Показать</p>
-                <select className="type-filter" onChange={() => setFirm(!firm)}>
-                    <option>Не выбрано</option>
-                    <option>Фирмы</option>
-                    <option>Отзывы</option>
+                <select className="type-filter" onChange={e => {setFirm(e.target.value)}}>
+                    <option value="0">Не выбрано</option>
+                    <option value="1">Фирмы</option>
+                    <option value="2">Отзывы</option>
                 </select>
                 <div class="dropdown">
                     <p>в проекте</p>
@@ -152,9 +153,14 @@ const Filter = () => {
                     </div>
                 </div>
             </div>
-            {firm ?
-                (<BodyFirm />) :
-                (<BodyTags />)
+            {
+                (firm == "0") && <BodyTags />
+            }
+            {
+                (firm == "1") && <BodyFirm />
+            }
+            {
+                (firm == "2") && <img src={vot} className="otzyv-img"/>
             }
         </div>
     );
