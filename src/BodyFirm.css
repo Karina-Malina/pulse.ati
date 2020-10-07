@@ -1,0 +1,59 @@
+.firm-page {
+    position: relative;
+    width: 1100px;
+   left: 100px;
+}
+
+.firm-head {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.count-firm {
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+color: #8C969D;
+}
+
+.input-search {
+    border-radius: 4px;
+    margin-left: 10px;
+    border: 1px solid #CED4DA;
+    padding: 6px 12px;
+}
+
+.search-firm {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.grey-string {
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.choose-all {
+    font-weight: normal;
+    color: #478CC8;
+}
+
+.table-button {
+    border: none;
+    padding: 6px 12px;
+    background-color: #F8F9FA;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+}

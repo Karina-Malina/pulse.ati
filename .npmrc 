@@ -1,0 +1,7 @@
+registry=http://teamcity.ri.domain:8668/npm/ATIjs
+always-auth=true
+//teamcity.ri.domain:8668/npm/:_password="bnBtdXNlcg=="
+//teamcity.ri.domain:8668/npm/:username=npmuser
+//teamcity.ri.domain:8668/npm/:email=adduser.@ati.su
+//teamcity.ri.domain:8668/npm/:always-auth=true
+unsafe-perm=true
